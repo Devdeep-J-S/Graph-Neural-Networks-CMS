@@ -56,7 +56,7 @@ Description:
 > 2. Discuss the resulting performance of the 2 chosen architectures. 
 
 Datasets (Same as in Task 2):</br>
-https://zenodo.org/record/3164691#.Yik7G99MHrB
+https://cernbox.cern.ch/index.php/s/hqz8zE7oxyPjvsL 
 
 ---
 > ### Choose 2 Graph-based architectures of your choice to classify jets as being quarks or gluons. Provide a description on what considerations you have taken to project this point-cloud dataset to a set of interconnected nodes and edges.
@@ -65,7 +65,7 @@ https://zenodo.org/record/3164691#.Yik7G99MHrB
 * Graph Neural Networks (GNNs) are an emerging class of machine learning models 
 designed to work with data structured as graphs, such as social networks, chemical molecules, and point clouds.
 In this task, we will use GNNs to classify jets as quarks or gluons based on the provided point-cloud dataset.
-* To accomplish this, we will use the dataset provided at https://zenodo.org/record/3164691#.Yik7G99MHrB
+* To accomplish this, we will use the dataset provided at https://cernbox.cern.ch/index.php/s/hqz8zE7oxyPjvsL 
 
 * This dataset consists of simulated jets in proton-proton collisions, each represented as a point cloud in 4-dimensional space (px, py, pz, E), where px, py, and pz are the jet's momentum components in the x, y, and z directions, respectively, and E is the jet's energy.
 * To classify these jets using GNNs, we must first convert each jet's point cloud into a graph structure. One common approach is to use a distance metric to define edges between points that are close together and then represent each point as a node in the graph. 
